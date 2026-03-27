@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
       - run: pip install soccerapi
       - run: python scraper.py
-      - name: Guncellemeyi Oto-Kaydet
+      - name: Guncellemeyi Kaydet
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 Kesin Guncelleme"
