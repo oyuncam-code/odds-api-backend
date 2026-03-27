@@ -3,15 +3,14 @@ import json
 import hashlib
 from datetime import datetime
 
-# Sizin taze API Key'iniz (Önceki mesajlardan buldum)
-# 01c6a8c323a4e78a9c7249cd8c61e00c
+# API Key: 01c6a8c323a4e78a9c7249cd8c61e00c
 
 def main():
     try:
         api_key = "01c6a8c323a4e78a9c7249cd8c61e00c"
-        print("Tüm Dünya Bülteni Çekiliyor...")
+        print("TÜM SPORLAR (3 GÜNLÜK) ÇEKİLİYOR...")
         
-        # Bütün dünyadaki futbol liglerini tek seferde süpür
+        # 'upcoming' hem Futbol, hem Basketbol, hem Tenis vb. tüm yakındaki maçları toplar
         url = f"https://api.the-odds-api.com/v4/sports/upcoming/odds/?regions=eu&markets=h2h&apiKey={api_key}"
         
         response = requests.get(url)
@@ -22,9 +21,11 @@ def main():
             for m in data:
                 h = m.get('home_team')
                 a = m.get('away_team')
-                uid = hashlib.md5(f"{h}{a}{m.get('commence_time','')}".encode()).hexdigest()
+                sport = m.get('sport_title', 'Diğer')
+                commence_time = m.get('commence_time', datetime.now().isoformat())
                 
-                # Oran bulma (İlk bookmaker - Unibet/888Sport seçilir)
+                uid = hashlib.md5(f"{h}{a}{commence_time}".encode()).hexdigest()
+                
                 h_o = 0; d_o = 0; a_o = 0
                 bookies = m.get('bookmakers', [])
                 if bookies:
@@ -35,16 +36,19 @@ def main():
                         elif o['name'] == 'Draw': d_o = o['price']
 
                 results.append({
-                    "id": uid, "league": f"{m.get('sport_title', 'Futbol')} (Dünya)",
-                    "date": m.get('commence_time', datetime.now().isoformat()),
-                    "home": h, "away": a,
+                    "id": uid,
+                    "league": f"{sport}",
+                    "date": commence_time,
+                    "home": h,
+                    "away": a,
                     "maxOdds": { "homeWin": h_o, "draw": d_o, "awayWin": a_o, "over25": 0, "under25": 0 }
                 })
         
-        # Dosyaya kaydet
         with open('oranlar.json', 'w', encoding='utf-8') as f:
             json.dump({"son_guncelleme": datetime.now().isoformat(), "maclar": results}, f, ensure_ascii=False, indent=4)
         print(f"Bitti! {len(results)} maç yüklendi.")
-    except Exception as e: print(f"Hata: {e}")
+    except Exception as e:
+        print(f"Hata: {e}")
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()
