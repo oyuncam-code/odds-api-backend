@@ -1,5 +1,5 @@
 {
-    "son_guncelleme": "2026-03-27T21:15:42.092579",
+    "son_guncelleme": "2026-03-27T21:30:22.796113",
     "maclar": [
         {
             "id": "5f25b3604be5cffdd91bd767ed431f55",
@@ -8,23 +8,9 @@
             "home": "Boston College Eagles",
             "away": "Virginia Cavaliers",
             "maxOdds": {
-                "homeWin": 1.1,
+                "homeWin": 0,
                 "draw": 0,
-                "awayWin": 5.25,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "bcfc8a0ba406518db1236503b641f5da",
-            "league": "AHL",
-            "date": "2026-03-27T19:06:00Z",
-            "home": "Calgary Wranglers",
-            "away": "Colorado Eagles",
-            "maxOdds": {
-                "homeWin": 22.0,
-                "draw": 7.5,
-                "awayWin": 1.02,
+                "awayWin": 0,
                 "over25": 0,
                 "under25": 0
             }
@@ -36,9 +22,9 @@
             "home": "Saski Baskonia",
             "away": "Hapoel Tel Aviv",
             "maxOdds": {
-                "homeWin": 1.29,
+                "homeWin": 1.02,
                 "draw": 0,
-                "awayWin": 3.5,
+                "awayWin": 20.0,
                 "over25": 0,
                 "under25": 0
             }
@@ -50,9 +36,9 @@
             "home": "KK Partizan NIS",
             "away": "Valencia Basket",
             "maxOdds": {
-                "homeWin": 3.0,
+                "homeWin": 2.0,
                 "draw": 0,
-                "awayWin": 1.36,
+                "awayWin": 1.73,
                 "over25": 0,
                 "under25": 0
             }
@@ -64,9 +50,9 @@
             "home": "Michigan St Spartans",
             "away": "Purdue Boilermakers",
             "maxOdds": {
-                "homeWin": 2.85,
+                "homeWin": 1.45,
                 "draw": 0,
-                "awayWin": 1.35,
+                "awayWin": 2.45,
                 "over25": 0,
                 "under25": 0
             }
@@ -78,9 +64,9 @@
             "home": "FC Barcelona Bàsquet",
             "away": "KK Crvena zvezda",
             "maxOdds": {
-                "homeWin": 1.44,
+                "homeWin": 1.12,
                 "draw": 0,
-                "awayWin": 2.62,
+                "awayWin": 5.5,
                 "over25": 0,
                 "under25": 0
             }
@@ -92,9 +78,9 @@
             "home": "San Francisco Giants",
             "away": "New York Yankees",
             "maxOdds": {
-                "homeWin": 1.83,
+                "homeWin": 2.09,
                 "draw": 0,
-                "awayWin": 1.83,
+                "awayWin": 1.68,
                 "over25": 0,
                 "under25": 0
             }
@@ -106,31 +92,17 @@
             "home": "Louisville Cardinals",
             "away": "Pittsburgh Panthers",
             "maxOdds": {
-                "homeWin": 1.35,
+                "homeWin": 1.45,
                 "draw": 0,
-                "awayWin": 2.8,
+                "awayWin": 2.4,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
-            "id": "4f6761bb6e1d31712bf26a4a85a5fcd3",
-            "league": "MiLB",
-            "date": "2026-03-27T21:05:00Z",
-            "home": "Reno Aces",
-            "away": "Tacoma Rainiers",
-            "maxOdds": {
-                "homeWin": 0,
-                "draw": 0,
-                "awayWin": 0,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "73573be6c74701324e3127368b383701",
+            "id": "89828495a99df9de7477642825217f39",
             "league": "WNCAAB",
-            "date": "2026-03-27T21:17:00Z",
+            "date": "2026-03-27T21:15:24Z",
             "home": "UConn Huskies",
             "away": "North Carolina Tar Heels",
             "maxOdds": {
@@ -235,6 +207,944 @@
                 "homeWin": 4.15,
                 "draw": 0,
                 "awayWin": 1.21,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "d919b12fc4fba84884f408aa7ee1d4d1",
+            "league": "NCAA Baseball",
+            "date": "2026-03-27T22:00:00Z",
+            "home": "Rutgers Scarlet Knights",
+            "away": "Michigan Wolverines",
+            "maxOdds": {
+                "homeWin": 1.86,
+                "draw": 0,
+                "awayWin": 1.88,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "b3e8d0e38d75648955b63aecc1e53e55",
+            "league": "League 1",
+            "date": "2026-03-28T15:00:00Z",
+            "home": "Blackpool",
+            "away": "Burton Albion",
+            "maxOdds": {
+                "homeWin": 2.35,
+                "draw": 3.2,
+                "awayWin": 2.75,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "4a3b4e444b82871bd5d5b62e6bfa7f19",
+            "league": "League 1",
+            "date": "2026-03-28T15:00:00Z",
+            "home": "Exeter City",
+            "away": "Leyton Orient",
+            "maxOdds": {
+                "homeWin": 2.35,
+                "draw": 3.4,
+                "awayWin": 2.85,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "3b15f1838afcf77893be5ae77ed19e01",
+            "league": "League 1",
+            "date": "2026-03-28T15:00:00Z",
+            "home": "Wycombe Wanderers",
+            "away": "Port Vale",
+            "maxOdds": {
+                "homeWin": 1.54,
+                "draw": 4.05,
+                "awayWin": 5.7,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "b62f91c49a371846748c4301ca389dc7",
+            "league": "League 1",
+            "date": "2026-03-28T15:00:00Z",
+            "home": "Reading",
+            "away": "Wigan Athletic",
+            "maxOdds": {
+                "homeWin": 2.15,
+                "draw": 3.25,
+                "awayWin": 3.3,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "c6f3dccaad91e3b22c7ab5d9790bd9d8",
+            "league": "League 1",
+            "date": "2026-03-28T15:00:00Z",
+            "home": "Stockport County FC",
+            "away": "Wimbledon",
+            "maxOdds": {
+                "homeWin": 1.59,
+                "draw": 3.75,
+                "awayWin": 4.9,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "1063be73a79d7246ca454503fd095088",
+            "league": "League 1",
+            "date": "2026-04-02T18:45:00Z",
+            "home": "Wigan Athletic",
+            "away": "Leyton Orient",
+            "maxOdds": {
+                "homeWin": 2.02,
+                "draw": 3.3,
+                "awayWin": 3.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "6ecf0d9a56a1c9168cf2f3ca95797a84",
+            "league": "League 1",
+            "date": "2026-04-03T11:30:00Z",
+            "home": "Doncaster Rovers",
+            "away": "Mansfield Town",
+            "maxOdds": {
+                "homeWin": 2.06,
+                "draw": 3.55,
+                "awayWin": 3.25,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "58398caebb04221b791dc5cf30247126",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Burton Albion",
+            "away": "Barnsley",
+            "maxOdds": {
+                "homeWin": 2.4,
+                "draw": 3.45,
+                "awayWin": 2.7,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "9ebd4f9fbb78a6e54cbd07eafe3d9a73",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Blackpool",
+            "away": "Exeter City",
+            "maxOdds": {
+                "homeWin": 2.1,
+                "draw": 3.4,
+                "awayWin": 3.25,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "e1a6d2167235196a1e645815997fcc72",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Plymouth Argyle",
+            "away": "Bolton Wanderers",
+            "maxOdds": {
+                "homeWin": 2.8,
+                "draw": 3.6,
+                "awayWin": 2.28,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "398cf095746964f1d1f04666cb2b79cb",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Bradford City",
+            "away": "Northampton Town",
+            "maxOdds": {
+                "homeWin": 1.49,
+                "draw": 4.2,
+                "awayWin": 6.0,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "c743d0ce5fab4e36cd062741a9f806f7",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Huddersfield Town",
+            "away": "Reading",
+            "maxOdds": {
+                "homeWin": 1.77,
+                "draw": 3.65,
+                "awayWin": 4.2,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "3895601d919b1281d7edbdc6c859520e",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Lincoln City",
+            "away": "Wimbledon",
+            "maxOdds": {
+                "homeWin": 1.42,
+                "draw": 4.35,
+                "awayWin": 7.0,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "aba29f9919e206d1ba7348a7c0ba4ff6",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Luton",
+            "away": "Peterborough United",
+            "maxOdds": {
+                "homeWin": 1.61,
+                "draw": 4.2,
+                "awayWin": 4.6,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "de02a007c6d2d09255212724503c2655",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Rotherham United",
+            "away": "Stevenage",
+            "maxOdds": {
+                "homeWin": 2.85,
+                "draw": 3.05,
+                "awayWin": 2.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "09a1112d0e394759e68bd0606db28bac",
+            "league": "League 1",
+            "date": "2026-04-03T14:00:00Z",
+            "home": "Stockport County FC",
+            "away": "Wycombe Wanderers",
+            "maxOdds": {
+                "homeWin": 2.0,
+                "draw": 3.45,
+                "awayWin": 3.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "c44f1063eac98bd743c87ad737993d3b",
+            "league": "League 1",
+            "date": "2026-04-14T18:45:00Z",
+            "home": "Leyton Orient",
+            "away": "Mansfield Town",
+            "maxOdds": {
+                "homeWin": 2.18,
+                "draw": 3.45,
+                "awayWin": 3.05,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "8eaccfb5386e74df20e298e06c2268fb",
+            "league": "League 1",
+            "date": "2026-04-14T18:45:00Z",
+            "home": "Wigan Athletic",
+            "away": "Rotherham United",
+            "maxOdds": {
+                "homeWin": 1.83,
+                "draw": 3.5,
+                "awayWin": 4.2,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "fc3b112316cb1d25f6d5b3b70eae2378",
+            "league": "La Liga - Spain",
+            "date": "2026-04-03T19:00:00Z",
+            "home": "Rayo Vallecano",
+            "away": "Elche CF",
+            "maxOdds": {
+                "homeWin": 1.7,
+                "draw": 3.3,
+                "awayWin": 4.0,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "81f0e85e0c9c7be7d90784b6989c25df",
+            "league": "La Liga - Spain",
+            "date": "2026-04-04T12:00:00Z",
+            "home": "Real Sociedad",
+            "away": "Levante",
+            "maxOdds": {
+                "homeWin": 1.58,
+                "draw": 4.0,
+                "awayWin": 4.7,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "e9ef91e7a7b07dacc1c9d24631a059ea",
+            "league": "La Liga - Spain",
+            "date": "2026-04-04T14:15:00Z",
+            "home": "Mallorca",
+            "away": "Real Madrid",
+            "maxOdds": {
+                "homeWin": 4.5,
+                "draw": 3.8,
+                "awayWin": 1.52,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "f0b6a92ae2673a939f683dd8d09a2c5c",
+            "league": "La Liga - Spain",
+            "date": "2026-04-04T16:30:00Z",
+            "home": "Real Betis",
+            "away": "Espanyol",
+            "maxOdds": {
+                "homeWin": 1.8,
+                "draw": 4.12,
+                "awayWin": 4.1,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "caf518954b602a424826d8458cce01d0",
+            "league": "La Liga - Spain",
+            "date": "2026-04-04T19:00:00Z",
+            "home": "Atlético Madrid",
+            "away": "Barcelona",
+            "maxOdds": {
+                "homeWin": 2.8,
+                "draw": 3.6,
+                "awayWin": 2.0,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "e9e28bde86ce39d68a222efa2554b4cb",
+            "league": "La Liga - Spain",
+            "date": "2026-04-05T12:00:00Z",
+            "home": "Getafe",
+            "away": "Athletic Bilbao",
+            "maxOdds": {
+                "homeWin": 2.85,
+                "draw": 2.6,
+                "awayWin": 2.45,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "a08aae843fdc1087123ff64bb700280f",
+            "league": "La Liga - Spain",
+            "date": "2026-04-05T14:15:00Z",
+            "home": "Valencia",
+            "away": "Celta Vigo",
+            "maxOdds": {
+                "homeWin": 2.2,
+                "draw": 3.3,
+                "awayWin": 3.0,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "620f64995d4bdad0ef1210350c9af7c5",
+            "league": "La Liga - Spain",
+            "date": "2026-04-05T16:30:00Z",
+            "home": "Oviedo",
+            "away": "Sevilla",
+            "maxOdds": {
+                "homeWin": 2.75,
+                "draw": 2.9,
+                "awayWin": 2.4,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "6316b5c039f74c06d9819d8e21988d0a",
+            "league": "La Liga - Spain",
+            "date": "2026-04-05T19:00:00Z",
+            "home": "Alavés",
+            "away": "CA Osasuna",
+            "maxOdds": {
+                "homeWin": 2.44,
+                "draw": 3.24,
+                "awayWin": 3.12,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "38b74ee96aa68783b5e64ab69071f438",
+            "league": "La Liga - Spain",
+            "date": "2026-04-06T20:00:00Z",
+            "home": "Girona",
+            "away": "Villarreal",
+            "maxOdds": {
+                "homeWin": 2.9,
+                "draw": 3.15,
+                "awayWin": 2.1,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "4fadcf74836d5e4f9c24fa463ebc03b9",
+            "league": "La Liga - Spain",
+            "date": "2026-04-10T19:00:00Z",
+            "home": "Real Madrid",
+            "away": "Girona",
+            "maxOdds": {
+                "homeWin": 1.23,
+                "draw": 6.4,
+                "awayWin": 12.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "4815163c5e9a85449abe7909467b61fa",
+            "league": "La Liga - Spain",
+            "date": "2026-04-11T12:00:00Z",
+            "home": "Real Sociedad",
+            "away": "Alavés",
+            "maxOdds": {
+                "homeWin": 1.7,
+                "draw": 3.4,
+                "awayWin": 4.2,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "84238222dd29a74756c016540daff484",
+            "league": "La Liga - Spain",
+            "date": "2026-04-11T14:15:00Z",
+            "home": "Elche CF",
+            "away": "Valencia",
+            "maxOdds": {
+                "homeWin": 2.25,
+                "draw": 3.15,
+                "awayWin": 2.75,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "ce839cec990e6b41a676f2e2ac071115",
+            "league": "La Liga - Spain",
+            "date": "2026-04-11T16:30:00Z",
+            "home": "Barcelona",
+            "away": "Espanyol",
+            "maxOdds": {
+                "homeWin": 1.14,
+                "draw": 7.25,
+                "awayWin": 9.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "8d88175b4467823aa3d908097dd2277a",
+            "league": "La Liga - Spain",
+            "date": "2026-04-11T19:00:00Z",
+            "home": "Sevilla",
+            "away": "Atlético Madrid",
+            "maxOdds": {
+                "homeWin": 3.3,
+                "draw": 3.4,
+                "awayWin": 2.05,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "0743459a2c7ea155a2954230e32ee28e",
+            "league": "La Liga - Spain",
+            "date": "2026-04-12T12:00:00Z",
+            "home": "CA Osasuna",
+            "away": "Real Betis",
+            "maxOdds": {
+                "homeWin": 2.25,
+                "draw": 3.3,
+                "awayWin": 2.65,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "ab9e65602741dc0189b313f0a49a6d65",
+            "league": "La Liga - Spain",
+            "date": "2026-04-12T14:15:00Z",
+            "home": "Mallorca",
+            "away": "Rayo Vallecano",
+            "maxOdds": {
+                "homeWin": 2.5,
+                "draw": 3.25,
+                "awayWin": 2.6,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "b342b873fde2d0aac8917e8f1b037df3",
+            "league": "La Liga - Spain",
+            "date": "2026-04-12T16:30:00Z",
+            "home": "Celta Vigo",
+            "away": "Oviedo",
+            "maxOdds": {
+                "homeWin": 1.64,
+                "draw": 4.1,
+                "awayWin": 4.2,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "d25a893f7617e51f0a6bbff9b22386ef",
+            "league": "La Liga - Spain",
+            "date": "2026-04-12T19:00:00Z",
+            "home": "Athletic Bilbao",
+            "away": "Villarreal",
+            "maxOdds": {
+                "homeWin": 2.25,
+                "draw": 3.5,
+                "awayWin": 2.75,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "ee6afa21a7bddb81fc48f7c969d131a5",
+            "league": "La Liga - Spain",
+            "date": "2026-04-13T19:00:00Z",
+            "home": "Levante",
+            "away": "Getafe",
+            "maxOdds": {
+                "homeWin": 2.5,
+                "draw": 2.9,
+                "awayWin": 2.65,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "a9875d7b8dea8d7fe46e84e1795e943e",
+            "league": "NBA",
+            "date": "2026-03-27T23:10:00Z",
+            "home": "Indiana Pacers",
+            "away": "Los Angeles Clippers",
+            "maxOdds": {
+                "homeWin": 4.1,
+                "draw": 0,
+                "awayWin": 1.26,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "3d88d3282091bbe9d0be529413048bca",
+            "league": "NBA",
+            "date": "2026-03-27T23:40:00Z",
+            "home": "Boston Celtics",
+            "away": "Atlanta Hawks",
+            "maxOdds": {
+                "homeWin": 1.48,
+                "draw": 0,
+                "awayWin": 2.75,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "6669223b8966563b66ed4282f4b25f2f",
+            "league": "NBA",
+            "date": "2026-03-27T23:40:00Z",
+            "home": "Cleveland Cavaliers",
+            "away": "Miami Heat",
+            "maxOdds": {
+                "homeWin": 1.48,
+                "draw": 0,
+                "awayWin": 2.91,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "d0ea6e52ce12e6e76576c3c081ae5eca",
+            "league": "NBA",
+            "date": "2026-03-28T00:10:00Z",
+            "home": "Oklahoma City Thunder",
+            "away": "Chicago Bulls",
+            "maxOdds": {
+                "homeWin": 1.04,
+                "draw": 0,
+                "awayWin": 12.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "f17c9c3954babe53317968e8be622e46",
+            "league": "NBA",
+            "date": "2026-03-28T00:10:00Z",
+            "home": "Memphis Grizzlies",
+            "away": "Houston Rockets",
+            "maxOdds": {
+                "homeWin": 7.1,
+                "draw": 0,
+                "awayWin": 1.11,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "508da0386f6a390268a4153c78f424b9",
+            "league": "NBA",
+            "date": "2026-03-28T00:40:00Z",
+            "home": "Toronto Raptors",
+            "away": "New Orleans Pelicans",
+            "maxOdds": {
+                "homeWin": 1.29,
+                "draw": 0,
+                "awayWin": 3.6,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "c3052b62e319e66237f2b193ef690f52",
+            "league": "NBA",
+            "date": "2026-03-28T01:10:00Z",
+            "home": "Denver Nuggets",
+            "away": "Utah Jazz",
+            "maxOdds": {
+                "homeWin": 1.04,
+                "draw": 0,
+                "awayWin": 11.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "a25ddb9fd7d475ea8b9e6d97e37ec0c1",
+            "league": "NBA",
+            "date": "2026-03-28T02:10:00Z",
+            "home": "Portland Trail Blazers",
+            "away": "Dallas Mavericks",
+            "maxOdds": {
+                "homeWin": 1.21,
+                "draw": 0,
+                "awayWin": 4.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "d0d7830781f75e4845ec9d11fefd054e",
+            "league": "NBA",
+            "date": "2026-03-28T02:10:00Z",
+            "home": "Golden State Warriors",
+            "away": "Washington Wizards",
+            "maxOdds": {
+                "homeWin": 1.11,
+                "draw": 0,
+                "awayWin": 6.8,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "fcd54d9be1930f8f69c7b6a56bcca132",
+            "league": "NBA",
+            "date": "2026-03-28T02:40:00Z",
+            "home": "Los Angeles Lakers",
+            "away": "Brooklyn Nets",
+            "maxOdds": {
+                "homeWin": 1.05,
+                "draw": 0,
+                "awayWin": 10.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "1392a8b769db088caea04d10e97f309f",
+            "league": "Basketball Euroleague",
+            "date": "2026-04-01T17:00:00Z",
+            "home": "FC Bayern München",
+            "away": "Fenerbahce SK",
+            "maxOdds": {
+                "homeWin": 3.12,
+                "draw": 0,
+                "awayWin": 1.4,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "7103255d263deb0152c95a1ae98d92bc",
+            "league": "NHL",
+            "date": "2026-03-27T23:10:00Z",
+            "home": "Buffalo Sabres",
+            "away": "Detroit Red Wings",
+            "maxOdds": {
+                "homeWin": 2.17,
+                "draw": 4.32,
+                "awayWin": 2.95,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "3dfb9fea912393e3ec761c9ba97f84a3",
+            "league": "NHL",
+            "date": "2026-03-27T23:10:00Z",
+            "home": "New York Rangers",
+            "away": "Chicago Blackhawks",
+            "maxOdds": {
+                "homeWin": 2.0,
+                "draw": 4.4,
+                "awayWin": 3.29,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "fe7d9f6bd584c5554fd945368b78519b",
+            "league": "NHL",
+            "date": "2026-03-28T17:00:00Z",
+            "home": "New York Islanders",
+            "away": "Florida Panthers",
+            "maxOdds": {
+                "homeWin": 1.87,
+                "draw": 4.3,
+                "awayWin": 3.5,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "00af084d1eb56b6a8933ec0d96684863",
+            "league": "NHL",
+            "date": "2026-03-28T17:00:00Z",
+            "home": "Tampa Bay Lightning",
+            "away": "Ottawa Senators",
+            "maxOdds": {
+                "homeWin": 1.95,
+                "draw": 4.2,
+                "awayWin": 3.3,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "9c204b741b9c252d339de7d939944c26",
+            "league": "NHL",
+            "date": "2026-03-28T19:30:00Z",
+            "home": "Edmonton Oilers",
+            "away": "Anaheim Ducks",
+            "maxOdds": {
+                "homeWin": 2.12,
+                "draw": 4.25,
+                "awayWin": 2.9,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "0e31a601ca9d95cd916c4d91a5d63ba4",
+            "league": "NHL",
+            "date": "2026-03-28T21:00:00Z",
+            "home": "Boston Bruins",
+            "away": "Minnesota Wild",
+            "maxOdds": {
+                "homeWin": 2.6,
+                "draw": 4.1,
+                "awayWin": 2.35,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "95b095e2204ba37ee9183cc033577330",
+            "league": "NHL",
+            "date": "2026-03-28T21:00:00Z",
+            "home": "Carolina Hurricanes",
+            "away": "New Jersey Devils",
+            "maxOdds": {
+                "homeWin": 1.78,
+                "draw": 4.4,
+                "awayWin": 3.8,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "9fe89068acce3986e4f513896f62cc28",
+            "league": "NHL",
+            "date": "2026-03-28T21:00:00Z",
+            "home": "Columbus Blue Jackets",
+            "away": "San Jose Sharks",
+            "maxOdds": {
+                "homeWin": 1.79,
+                "draw": 4.4,
+                "awayWin": 3.75,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "9bcd2b3b97b22c7d0d1440c58e15447f",
+            "league": "NHL",
+            "date": "2026-03-28T21:00:00Z",
+            "home": "Pittsburgh Penguins",
+            "away": "Dallas Stars",
+            "maxOdds": {
+                "homeWin": 2.75,
+                "draw": 4.2,
+                "awayWin": 2.23,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "7801395dde0e2e7fc61399a61bf39235",
+            "league": "NHL",
+            "date": "2026-03-28T21:30:00Z",
+            "home": "Buffalo Sabres",
+            "away": "Seattle Kraken",
+            "maxOdds": {
+                "homeWin": 1.81,
+                "draw": 4.4,
+                "awayWin": 3.65,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "7fb780f1d469af6860463ac4b5d78090",
+            "league": "NHL",
+            "date": "2026-03-28T23:00:00Z",
+            "home": "Colorado Avalanche",
+            "away": "Winnipeg Jets",
+            "maxOdds": {
+                "homeWin": 1.6,
+                "draw": 4.6,
+                "awayWin": 4.7,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "7a99cc2d12b85cf8ff7c8a50b0991387",
+            "league": "NHL",
+            "date": "2026-03-28T23:00:00Z",
+            "home": "Nashville Predators",
+            "away": "Montréal Canadiens",
+            "maxOdds": {
+                "homeWin": 2.7,
+                "draw": 4.1,
+                "awayWin": 2.3,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "008ee35b19c491f5f73720b9e435bf65",
+            "league": "NHL",
+            "date": "2026-03-28T23:00:00Z",
+            "home": "St Louis Blues",
+            "away": "Toronto Maple Leafs",
+            "maxOdds": {
+                "homeWin": 2.14,
+                "draw": 4.2,
+                "awayWin": 2.9,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "f672be4d0b45a8bd28eb2e0113da4e6e",
+            "league": "NHL",
+            "date": "2026-03-29T00:00:00Z",
+            "home": "Detroit Red Wings",
+            "away": "Philadelphia Flyers",
+            "maxOdds": {
+                "homeWin": 2.08,
+                "draw": 4.35,
+                "awayWin": 2.9,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "8c00d0412b677bb482944a9b7017f0f3",
+            "league": "NHL",
+            "date": "2026-03-29T01:00:00Z",
+            "home": "Los Angeles Kings",
+            "away": "Utah Mammoth",
+            "maxOdds": {
+                "homeWin": 2.45,
+                "draw": 4.0,
+                "awayWin": 2.55,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "accc3bdf16abd3640050ea3b97ee4afc",
+            "league": "NHL",
+            "date": "2026-03-29T02:00:00Z",
+            "home": "Calgary Flames",
+            "away": "Vancouver Canucks",
+            "maxOdds": {
+                "homeWin": 2.0,
+                "draw": 4.2,
+                "awayWin": 3.2,
+                "over25": 0,
+                "under25": 0
+            }
+        },
+        {
+            "id": "47efd77a202e1a78d2917497113920da",
+            "league": "NHL",
+            "date": "2026-03-29T02:30:00Z",
+            "home": "Vegas Golden Knights",
+            "away": "Washington Capitals",
+            "maxOdds": {
+                "homeWin": 2.1,
+                "draw": 4.1,
+                "awayWin": 3.05,
                 "over25": 0,
                 "under25": 0
             }
