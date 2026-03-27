@@ -20,4 +20,4 @@ jobs:
           git config --local user.name "GitHub Action Bot"
           git add oranlar.json
           git commit -m "🤖 Guncelleme" || exit 0
-          git push origin main
+          git push origin main --force
