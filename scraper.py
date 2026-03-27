@@ -1,100 +1,64 @@
 import json
-from datetime import datetime
 import hashlib
-from soccerapi.api import Api888Sport
-
-def get_competitions(api):
-    try:
-        comps = api.competitions()
-        urls = []
-        favorite_countries = ['England', 'Spain', 'Italy', 'Germany', 'France', 'Turkey', 'Major League Soccer']
-        for country, leagues in comps.items():
-            if country in favorite_countries:
-                for league_name, url in leagues.items():
-                    urls.append((f"{country} - {league_name}", url))
-        return urls[:15]
-    except Exception as e:
-        print(f"Competitions fetch error: {e}")
-        return []
+from datetime import datetime
+from soccerapi.api import ApiUnibet
 
 def main():
     try:
-        api = Api888Sport()
-        comps = get_competitions(api)
+        api = ApiUnibet()
+        print("Bülten taranıyor...")
+        
+        # Unibet için en popüler liglerin URL slugları
+        target_leagues = [
+            'england/premier_league',
+            'turkey/super_lig',
+            'spain/la_liga',
+            'italy/serie_a',
+            'germany/bundesliga',
+            'france/ligue_1'
+        ]
         
         results = []
-        for league_name, url in comps:
+        for slug in target_leagues:
             try:
-                odds_data = api.odds(url)
-                
+                print(f"Çekiliyor: {slug}")
+                # odds() fonksiyonuna doğrudan slug gönderiyoruz
+                odds_data = api.odds(slug)
                 for event in odds_data:
-                    home = event.get('home_team', 'Unknown')
-                    away = event.get('away_team', 'Unknown')
-                    match_time = event.get('time', datetime.now().isoformat())
+                    home = event.get('home_team')
+                    away = event.get('away_team')
+                    if not home or not away: continue
                     
-                    uid = hashlib.md5(f"{home}{away}{match_time}".encode()).hexdigest()
+                    uid = hashlib.md5(f"{home}{away}{event.get('time','')}".encode()).hexdigest()
+                    # Unibet verisindeki yazım hatalarını (resut vs) denetle
+                    ft = event.get('full_time_result') or event.get('full_time_resut') or {}
                     
-                    ft = event.get('full_time_result', {})
-                    if not ft: ft = event.get('full_time_resut', {})
-                    homeWin = ft.get('1', 0) / 1000
-                    draw = ft.get('X', 0) / 1000
-                    awayWin = ft.get('2', 0) / 1000
-                    
-                    uo = event.get('under_over', {})
-                    over25 = 0; under25 = 0
-                    if isinstance(uo, dict):
-                        over25 = uo.get('over', 0) / 1000
-                        if over25 == 0:
-                            line_25 = uo.get('2.5') or uo.get('2,5', {})
-                            if isinstance(line_25, dict):
-                                over25 = line_25.get('over', 0) / 1000
-                                under25 = line_25.get('under', 0) / 1000
-                        else:
-                            under25 = uo.get('under', 0) / 1000
-
-                    btts = event.get('both_teams_to_score', {})
-                    bttsYes = btts.get('yes', 0) / 1000
-                    bttsNo = btts.get('no', 0) / 1000
-                    
-                    ah = event.get('asian_handicap', {})
-                    asianHandicapHome = 0; asianLine = 0
-                    if isinstance(ah, dict):
-                        line_0 = ah.get('0.0') or ah.get('0')
-                        if line_0 and isinstance(line_0, dict):
-                            asianLine = 0.0
-                            asianHandicapHome = line_0.get('1', 0) / 1000
-
-                    processed_match = {
+                    processed = {
                         "id": uid,
-                        "league": league_name,
-                        "date": match_time,
+                        "league": slug.upper(),
+                        "date": event.get('time', datetime.now().isoformat()),
                         "home": home,
                         "away": away,
                         "maxOdds": {
-                            "homeWin": homeWin, "draw": draw, "awayWin": awayWin,
-                            "over25": over25, "under25": under25,
-                            "bttsYes": bttsYes, "bttsNo": bttsNo,
-                            "asianHandicapHome": asianHandicapHome, "asianLine": asianLine
-                        },
-                        "pinnacleOdds": { "homeWin": 0, "draw": 0, "awayWin": 0 }, 
+                            "homeWin": ft.get('1', 0) / 1000,
+                            "draw": ft.get('X', 0) / 1000,
+                            "awayWin": ft.get('2', 0) / 1000,
+                            "over25": 0, "under25": 0 # Gelecek sürümlerde eklenebilir
+                        }
                     }
-                    if homeWin > 0:
-                        results.append(processed_match)
+                    if processed["maxOdds"]["homeWin"] > 0:
+                        results.append(processed)
             except Exception as e:
-                print(f"[{league_name}] atlandi: {e}")
-        
-        data = {
-            "son_guncelleme": datetime.now().isoformat(),
-            "maclar": results
-        }
-        
+                print(f"{slug} hatası: {e}")
+
+        # Kaydet
+        data = {"son_guncelleme": datetime.now().isoformat(), "maclar": results}
         with open('oranlar.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-            
-        print("Veriler basariyla cekildi ve oranlar.json dosyasina yazildi.")
+        print(f"Bitti! {len(results)} maç bulundu.")
         
     except Exception as e:
-        print(f"Iletisim hatasi: {e}")
+        print(f"Genel Hata: {e}")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
