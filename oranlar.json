@@ -1,93 +1,79 @@
 {
-    "son_guncelleme": "2026-03-27T21:05:20.718182",
+    "son_guncelleme": "2026-03-27T21:15:42.092579",
     "maclar": [
         {
             "id": "5f25b3604be5cffdd91bd767ed431f55",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T19:00:00Z",
             "home": "Boston College Eagles",
             "away": "Virginia Cavaliers",
             "maxOdds": {
-                "homeWin": 1.3,
+                "homeWin": 1.1,
                 "draw": 0,
-                "awayWin": 3.15,
+                "awayWin": 5.25,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "bcfc8a0ba406518db1236503b641f5da",
-            "league": "AHL (Dünya)",
+            "league": "AHL",
             "date": "2026-03-27T19:06:00Z",
             "home": "Calgary Wranglers",
             "away": "Colorado Eagles",
             "maxOdds": {
-                "homeWin": 31.0,
-                "draw": 9.5,
-                "awayWin": 1.04,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "f24cd441a0214741b0829b83807d2b23",
-            "league": "Basketball Euroleague (Dünya)",
-            "date": "2026-03-27T19:16:00Z",
-            "home": "Panathinaikos",
-            "away": "AS Monaco",
-            "maxOdds": {
-                "homeWin": 1.01,
-                "draw": 0,
-                "awayWin": 22.0,
+                "homeWin": 22.0,
+                "draw": 7.5,
+                "awayWin": 1.02,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "a3f2497fd6380236ece9214899499a24",
-            "league": "Basketball Euroleague (Dünya)",
+            "league": "Basketball Euroleague",
             "date": "2026-03-27T19:30:00Z",
             "home": "Saski Baskonia",
             "away": "Hapoel Tel Aviv",
             "maxOdds": {
-                "homeWin": 1.4,
+                "homeWin": 1.29,
                 "draw": 0,
-                "awayWin": 2.75,
+                "awayWin": 3.5,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "92268359ff1cb5f214e98c36fc1a504a",
-            "league": "Basketball Euroleague (Dünya)",
+            "league": "Basketball Euroleague",
             "date": "2026-03-27T19:30:00Z",
             "home": "KK Partizan NIS",
             "away": "Valencia Basket",
             "maxOdds": {
-                "homeWin": 4.5,
+                "homeWin": 3.0,
                 "draw": 0,
-                "awayWin": 1.17,
+                "awayWin": 1.36,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "60ec76b85464e8d506a81c5b904f47d2",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T19:35:00Z",
             "home": "Michigan St Spartans",
             "away": "Purdue Boilermakers",
             "maxOdds": {
-                "homeWin": 1.65,
+                "homeWin": 2.85,
                 "draw": 0,
-                "awayWin": 2.05,
+                "awayWin": 1.35,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "4943355778a696679083f67ebab7fdf9",
-            "league": "Basketball Euroleague (Dünya)",
+            "league": "Basketball Euroleague",
             "date": "2026-03-27T20:02:00Z",
             "home": "FC Barcelona Bàsquet",
             "away": "KK Crvena zvezda",
@@ -101,77 +87,35 @@
         },
         {
             "id": "a4af71cf0713d647585cdc766406705d",
-            "league": "MLB (Dünya)",
+            "league": "MLB",
             "date": "2026-03-27T20:36:00Z",
             "home": "San Francisco Giants",
             "away": "New York Yankees",
             "maxOdds": {
-                "homeWin": 1.95,
+                "homeWin": 1.83,
                 "draw": 0,
-                "awayWin": 1.73,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "39b03aa8dafa33de9f7031bfdce714d6",
-            "league": "NCAA Baseball (Dünya)",
-            "date": "2026-03-27T21:00:00Z",
-            "home": "Cincinnati Bearcats",
-            "away": "Kansas Jayhawks",
-            "maxOdds": {
-                "homeWin": 1.4,
-                "draw": 0,
-                "awayWin": 2.83,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "bc9906670cb0331ea7d81d83e2a65214",
-            "league": "MMA (Dünya)",
-            "date": "2026-03-27T21:00:00Z",
-            "home": "Guilherme Uriel",
-            "away": "Leonardo Fraga",
-            "maxOdds": {
-                "homeWin": 1.02,
-                "draw": 0,
-                "awayWin": 17.0,
-                "over25": 0,
-                "under25": 0
-            }
-        },
-        {
-            "id": "2bc305f5d86e87b58303684691caf5f6",
-            "league": "NCAA Baseball (Dünya)",
-            "date": "2026-03-27T21:00:00Z",
-            "home": "Iowa Hawkeyes",
-            "away": "UCLA Bruins",
-            "maxOdds": {
-                "homeWin": 5.52,
-                "draw": 0,
-                "awayWin": 1.12,
+                "awayWin": 1.83,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "4f6bbe29842417604807a325204fd094",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T21:00:00Z",
             "home": "Louisville Cardinals",
             "away": "Pittsburgh Panthers",
             "maxOdds": {
-                "homeWin": 1.55,
+                "homeWin": 1.35,
                 "draw": 0,
-                "awayWin": 2.36,
+                "awayWin": 2.8,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "4f6761bb6e1d31712bf26a4a85a5fcd3",
-            "league": "MiLB (Dünya)",
+            "league": "MiLB",
             "date": "2026-03-27T21:05:00Z",
             "home": "Reno Aces",
             "away": "Tacoma Rainiers",
@@ -184,9 +128,9 @@
             }
         },
         {
-            "id": "6f95789ce868d45b5ab71cf91bdb9cad",
-            "league": "WNCAAB (Dünya)",
-            "date": "2026-03-27T21:15:00Z",
+            "id": "73573be6c74701324e3127368b383701",
+            "league": "WNCAAB",
+            "date": "2026-03-27T21:17:00Z",
             "home": "UConn Huskies",
             "away": "North Carolina Tar Heels",
             "maxOdds": {
@@ -199,7 +143,7 @@
         },
         {
             "id": "72526841cc1a09600cb828987d62614b",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "UCF Knights",
             "away": "Arizona Wildcats",
@@ -213,7 +157,7 @@
         },
         {
             "id": "8863571f1e079b37f4718c9d87b0b078",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Wake Forest Demon Deacons",
             "away": "California Golden Bears",
@@ -227,7 +171,7 @@
         },
         {
             "id": "f9f8d8332ba1bdfc2f50341031889246",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Charlotte 49ers",
             "away": "South Florida Bulls",
@@ -241,12 +185,12 @@
         },
         {
             "id": "57b12361e06a255a6e4e373c02208913",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Marshall Thundering Herd",
             "away": "Coastal Carolina Chanticleers",
             "maxOdds": {
-                "homeWin": 4.64,
+                "homeWin": 4.59,
                 "draw": 0,
                 "awayWin": 1.17,
                 "over25": 0,
@@ -255,7 +199,7 @@
         },
         {
             "id": "75983e39063a5f3b05b773a4d8b5d107",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Florida St Seminoles",
             "away": "Duke Blue Devils",
@@ -269,21 +213,21 @@
         },
         {
             "id": "3aa5029ad80eafbde464d8210e276df8",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Georgia Bulldogs",
             "away": "South Carolina Gamecocks",
             "maxOdds": {
-                "homeWin": 1.18,
+                "homeWin": 1.17,
                 "draw": 0,
-                "awayWin": 4.53,
+                "awayWin": 4.64,
                 "over25": 0,
                 "under25": 0
             }
         },
         {
             "id": "069d5aa23ed6e01fb5a72be6053bdf1e",
-            "league": "NCAA Baseball (Dünya)",
+            "league": "NCAA Baseball",
             "date": "2026-03-27T22:00:00Z",
             "home": "Maryland Terrapins",
             "away": "USC Trojans",
