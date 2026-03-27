@@ -1,5 +1,5 @@
 {
-    "son_guncelleme": "2026-03-27T21:30:22.796113",
+    "son_guncelleme": "2026-03-27T21:35:55.289375",
     "maclar": [
         {
             "id": "5f25b3604be5cffdd91bd767ed431f55",
@@ -36,9 +36,9 @@
             "home": "KK Partizan NIS",
             "away": "Valencia Basket",
             "maxOdds": {
-                "homeWin": 2.0,
+                "homeWin": 3.44,
                 "draw": 0,
-                "awayWin": 1.73,
+                "awayWin": 1.3,
                 "over25": 0,
                 "under25": 0
             }
@@ -50,9 +50,9 @@
             "home": "Michigan St Spartans",
             "away": "Purdue Boilermakers",
             "maxOdds": {
-                "homeWin": 1.45,
+                "homeWin": 1.22,
                 "draw": 0,
-                "awayWin": 2.45,
+                "awayWin": 3.45,
                 "over25": 0,
                 "under25": 0
             }
@@ -64,9 +64,9 @@
             "home": "FC Barcelona Bàsquet",
             "away": "KK Crvena zvezda",
             "maxOdds": {
-                "homeWin": 1.12,
+                "homeWin": 1.11,
                 "draw": 0,
-                "awayWin": 5.5,
+                "awayWin": 6.0,
                 "over25": 0,
                 "under25": 0
             }
@@ -78,9 +78,9 @@
             "home": "San Francisco Giants",
             "away": "New York Yankees",
             "maxOdds": {
-                "homeWin": 2.09,
+                "homeWin": 1.85,
                 "draw": 0,
-                "awayWin": 1.68,
+                "awayWin": 1.8,
                 "over25": 0,
                 "under25": 0
             }
@@ -834,9 +834,9 @@
             "home": "Toronto Raptors",
             "away": "New Orleans Pelicans",
             "maxOdds": {
-                "homeWin": 1.29,
+                "homeWin": 1.3,
                 "draw": 0,
-                "awayWin": 3.6,
+                "awayWin": 3.7,
                 "over25": 0,
                 "under25": 0
             }
@@ -1002,9 +1002,9 @@
             "home": "Carolina Hurricanes",
             "away": "New Jersey Devils",
             "maxOdds": {
-                "homeWin": 1.78,
+                "homeWin": 1.76,
                 "draw": 4.4,
-                "awayWin": 3.8,
+                "awayWin": 3.9,
                 "over25": 0,
                 "under25": 0
             }
