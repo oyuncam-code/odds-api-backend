@@ -6,9 +6,11 @@ on:
 jobs:
   veri-cek:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       - run: pip install soccerapi
@@ -17,5 +19,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add oranlar.json
-          git diff-index --quiet HEAD || git commit -m "🤖 Oranlar güncellendi"
-          git push
+          git commit -m "🤖 Guncelleme" || exit 0
+          git push origin main
