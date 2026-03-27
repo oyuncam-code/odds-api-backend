@@ -19,6 +19,7 @@ jobs:
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
+          git pull origin main --rebase
           git add oranlar.json
-          git diff-index --quiet HEAD || git commit -m "🤖 Oranlar güncellendi"
-          git push
+          git commit -m "🤖 Oranlar güncellendi" || exit 0
+          git push origin main
