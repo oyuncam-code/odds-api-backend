@@ -7,7 +7,7 @@ def get_competitions(api):
     try:
         comps = api.competitions()
         urls = []
-        favorite_countries = ['England', 'Spain', 'Italy', 'Germany', 'France', 'Turkey']
+        favorite_countries = ['England', 'Spain', 'Italy', 'Germany', 'France', 'Turkey', 'Major League Soccer']
         for country, leagues in comps.items():
             if country in favorite_countries:
                 for league_name, url in leagues.items():
