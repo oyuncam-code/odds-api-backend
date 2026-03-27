@@ -1,0 +1,53 @@
+name: OddsHarvester Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12' # OddsHarvester için kritik güncelleme
+
+      - name: Install Dependencies
+        run: |
+          pip install oddsharvester playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run OddsHarvester
+        env:
+          OH_SPORT: football
+          OH_HEADLESS: 'true'
+          OH_FORMAT: json
+          OH_STORAGE: local
+        run: |
+          DATE=$(date -d "+1 day" +%Y%m%d)
+          # Hızlı ve etkili tarama için --preview-only eklendi
+          oddsharvester upcoming -s football -d $DATE -m 1x2,btts,over/under --headless --preview-only
+
+      - name: Rename and Move Output
+        run: |
+          # Üretilen dosyanın adını sistemin tanıdığı isme çevir
+          mv football_*.json oranlar.json || echo "Dosya bulunamadı"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sports-odds-data
+          path: oranlar.json
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 OddsHarvester: Güncel Oranlar Hasat Edildi"
+          file_pattern: "oranlar.json"
+          push_options: '--force'
