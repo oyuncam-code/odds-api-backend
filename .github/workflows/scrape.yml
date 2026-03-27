@@ -10,13 +10,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Tüm geçmişi (conflictleri silmek için) her seferinde taze al
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       - run: pip install soccerapi
       - run: python scraper.py
-      - name: Veriyi Otomatik Yukle
+      - name: Guncellemeyi Kaydet
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Güncelleme"
+          commit_message: "🤖 Kesin Guncelleme"
           file_pattern: "oranlar.json"
+          # Conflict (çakışma) olduğunda otomatik çözmesi için bu satırları ekledim:
+          push_options: '--force' 
+          skip_dirty_check: true
