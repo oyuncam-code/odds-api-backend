@@ -1,7 +1,5 @@
 name: Oran Guncelleme
 on:
-  schedule:
-    - cron: '0 */3 * * *'
   workflow_dispatch:
 jobs:
   veri-cek:
@@ -10,16 +8,14 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Tüm geçmişle (tazeleyerek) bağdaştır
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: pip install soccerapi
-      - run: python scraper.py
-      - name: Guncellemeyi Oto-Kaydet
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - run: |
+          pip install soccerapi
+          python -c "import json, hashlib; from datetime import datetime; from soccerapi.api import ApiUnibet; api=ApiUnibet(); comps=api.competitions(); target=[]; favs=['England','Turkey']; [target.append((f'{k}-{n}',u)) for k,v in comps.items() for n,u in v.items() if k in favs or len(target)<10]; res=[]; [res.append({'id':hashlib.md5(f'{ev.get(\"home_team\")}{ev.get(\"away_team\")}'.encode()).hexdigest(),'league':l,'date':ev.get(\"time\",datetime.now().isoformat()),'home':ev.get(\"home_team\"),'away':ev.get(\"away_team\"),'maxOdds':{'homeWin':(ev.get(\"full_time_resut\") or ev.get(\"full_time_result\") or {}).get(\"1\",0)/1000}}) for l,u in target for ev in api.odds(u) if ev.get(\"home_team\")]; open('oranlar.json','w').write(json.dumps({'maclar':res}))"
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 Kesin Guncelleme"
           file_pattern: "oranlar.json"
-          push_options: '--force' # Çakışma olsa bile zorla üzerine yaz
+          push_options: '--force'
